@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /> </p>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: wflps20140311@163.com</h3>
 <p align="left">
 </p>
 
