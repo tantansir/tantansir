@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm tkz</h1>
-<h3 align="center">A tyro from China</h3>
+<h1 align="center">👋Hi, I'm tkz</h1>
+<h3 align="center"> major in Information Management & Information System, Tongji University</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /> </p>
 
