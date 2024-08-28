@@ -1,9 +1,9 @@
 <h1 align="center">👋Hi, I'm tkz</h1>
-<h3 align="center"> I major in Information Management & Information System, Tongji University, 2021~2025</h3>
+<h3 align="center"> I am an undergraduate student from Tongji University, majoring in Information Management & Information System.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /> </p>
 
-<h3 align="left">Connect with me: wflps20140311@163.com</h3>
+<h3 align="left">Connect with me: tkz@tongji.edu.cn or wflps20140311@163.com</h3>
 <p align="left">
 </p>
 
