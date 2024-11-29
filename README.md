@@ -1,6 +1,5 @@
 ### 👋Hi, I'm tkz
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en&count_private=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=tantansir&show_icons=true&locale=en&layout=compact" alt="tantansir" />
 
 - 📝 I will obtain my bachelor's degree from Tongji University in 2025, majoring in Information Management and Information System.
  
