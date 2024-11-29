@@ -1,12 +1,14 @@
-<h1 align="center">👋Hi, I'm tkz</h1>
-<h3 align="center"> I am an undergraduate at Tongji University, majoring in Information Management & Information System.</h3>
+### 👋Hi, I'm tkz
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en&count_private=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /> </p>
-<h3 align="left">My Personal Website: https://tantansir.github.io</h3>
-<h3 align="left">Connect with me: tkz@tongji.edu.cn</h3>
-<p align="left">
-</p>
+- 📝 I will obtain my bachelor's degree from Tongji University in 2025, majoring in Information Management and Information System.
+ 
+- 🌱 I'm currently having an internship at Institute for Infocomm Research (I2R), A*STAR.
+
+- 🔭 I'm applying for a master's degree in Artificial Intelligence and Data Science and am also seeking a PhD position in GeoAI/Urban Data Science.
+
+- 💬 Please feel free to contact me at [tkz@tongji.edu.cn](mailto:tkz@tongji.edu.cn). You can also check out [my homepage](https://tantansir.github.io/).
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tantansir&show_icons=true&locale=en&layout=compact" alt="tantansir" /></p>
 
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en" alt="tantansir" /></p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /> </p>
