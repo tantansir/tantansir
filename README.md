@@ -9,6 +9,10 @@
 
 - 💬 Please feel free to contact me at [tkz@tongji.edu.cn](mailto:tkz@tongji.edu.cn). You can also check out [my homepage](https://tantansir.github.io/).
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tantansir&show_icons=true&locale=en&layout=compact" alt="tantansir" /></p>
-
-<p><img align="left" src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" /></p>
+  <div>
+    <!-- First image -->
+    <img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en&count_private=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
+    <!-- Second image -->
+    <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=tantansir&show_icons=true&locale=en&layout=compact" alt="tantansir" />
+  </div>
+</div>
