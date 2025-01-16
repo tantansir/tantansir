@@ -3,7 +3,7 @@
 
 - 📝 I will obtain my bachelor's degree from Tongji University in 2025, majoring in Information Management and Information System.
  
-- 🌱 I have done a research internship at the Institute for Infocomm Research (I2R), A*STAR, and I will join the Shanghai AI Lab as an AI product manager intern in February 2025 to explore AI applications across diverse scenarios.
+- 🌱 I have done a research internship at the Institute for Infocomm Research (I2R), A*STAR, and I will join the Shanghai AI Lab as an AI product manager intern in January 2025 to explore AI applications across diverse scenarios.
 
 - 🔭 I'm applying for a master's degree in Artificial Intelligence and Data Science, and I'm also seeking a PhD position in GeoAI/Urban Data Science.
 
