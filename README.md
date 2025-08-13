@@ -1,7 +1,5 @@
 ### 👋 Hi, I'm Kaizhen Tan (谭楷蓁)
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en&count_private=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
-
 🎓 **M.S. in Artificial Intelligence Systems Management** @ Carnegie Mellon University (2025–2026)  
 🎓 **B.S. in Information Management & Information System** @ Tongji University (2021–2025)
 
