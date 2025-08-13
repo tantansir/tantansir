@@ -1,12 +1,27 @@
-### 👋Hi, I'm tkz
+### 👋 Hi, I'm Kaizhen Tan (谭楷蓁)
+
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=tantansir&show_icons=true&locale=en&count_private=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-- 📝 I will obtain my bachelor's degree from Tongji University in 2025, majoring in Information Management and Information System.
- 
-- 🌱 I have done a research internship at the Institute for Infocomm Research (I2R), A*STAR, and I will join the Shanghai AI Lab as a product manager intern in January 2025 to explore AI applications across diverse scenarios.
+🎓 **M.S. in Artificial Intelligence Systems Management** @ Carnegie Mellon University (2025–2026)  
+🎓 **B.S. in Information Management & Information System** @ Tongji University (2021–2025)
 
-- 🔭 I'm applying for a master's degree in Artificial Intelligence and Data Science, and I'm also seeking a PhD position in GeoAI/Urban Data Science.
+---
 
-- 💬 Please feel free to contact me at [tkz@tongji.edu.cn](mailto:tkz@tongji.edu.cn). You can also check out [my homepage](https://tantansir.github.io/).
+- 🌏 **Research Interests:** UrbanAI & GeoAI, Spatial Intelligence, Spatio-temporal Data Mining, Urban Computing, Embodied AI in Urban Scenes.
+- 🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and spatially/socially aware.
+
+---
+
+- 💼 **Recent Roles:**
+  - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
+  - **Research Assistant** @ Tongji University & A*STAR, Singapore — Air traffic prediction.
+  - **Research Assistant** @ Tongji University & PolyU, HK — Urban traffic modeling.
+  - **Research Assistant** @ Tongji University — Urban computing & tourist behavior.
+  - **Student Collaborator** @ Tongji University — Large language model dataset & prompt engineering.
+
+---
+
+- 📫 **Contact:** [kaizhent@cmu.edu](mailto:kaizhent@cmu.edu)  
+- 🌐 **Website:** [https://tantansir.github.io/](https://tantansir.github.io/)  
 
 <img align="left" src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" />
