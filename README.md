@@ -5,12 +5,12 @@
 
 ---
 
-- 🌏 **Research Interests:** Urban Computing, UrbanAI & GeoAI, Spatial Intelligence, Embodied AI in Urban Scenes.
-- 🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and spatially/socially aware.
+🌏 **Research Interests:** Urban Computing, UrbanAI & GeoAI, Spatial Intelligence, Spatio-temporal Data Mining, Embodied AI in Urban Scenes.
+🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and spatially/socially aware.
 
 ---
 
-- 💼 **Recent Roles:**
+💼 **Recent Roles:**
   - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
   - **Research Assistant** @ Tongji University & A*STAR, Singapore — Air traffic prediction.
   - **Research Assistant** @ Tongji University & PolyU, HK — Urban traffic modeling.
@@ -19,7 +19,7 @@
 
 ---
 
-- 📫 **Contact:** [kaizhent@cmu.edu](mailto:kaizhent@cmu.edu)  
-- 🌐 **Website:** [https://tantansir.github.io/](https://tantansir.github.io/)  
+📫 **Contact:** [kaizhent@cmu.edu](mailto:kaizhent@cmu.edu)  
+🌐 **Website:** [https://tantansir.github.io/](https://tantansir.github.io/)  
 
 <img align="left" src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" />
