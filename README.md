@@ -21,5 +21,6 @@
 
 📫 **Contact:** [kaizhent@cmu.edu](mailto:kaizhent@cmu.edu)  
 🌐 **Website:** [https://tantansir.github.io/](https://tantansir.github.io/)  
+🔭 **Currently seeking a PhD position** in *UrbanAI* and *Spatial Intelligence*.  
 
 <img align="left" src="https://komarev.com/ghpvc/?username=tantansir&label=Profile%20views&color=0e75b6&style=flat" alt="tantansir" />
