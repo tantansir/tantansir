@@ -5,7 +5,7 @@
 
 ---
 
-🌏 **Research Interests:** Urban Computing, UrbanAI & GeoAI, Spatial Intelligence, Embodied AI in Urban Scenes.  
+🌏 **Research Interests:** Urban AI, Social Sensing, Digital Twins, Spatial Intelligence, and Embodied AI for Urban Environments.  
 🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and socially aware.  
 🔭 **Currently seeking a PhD position** in *UrbanAI* and *Spatial Intelligence*.
 
