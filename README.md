@@ -15,7 +15,7 @@
   - **Research Assistant** @ Shanghai Key Laboratory of Urban Design and Urban Science — Embodied intelligence-friendly urban spaces.
   - **Research Assistant** @ Peking University — Urban geometric reconstruction and measurement.
   - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
-  - **Research Assistant** @ Tongji University & A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
+  - **Research Officer Intern** @ Tongji University & A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
   - **Research Assistant** @ Tongji University & PolyU, HK — Urban congestion propagation modeling.
   - **Research Assistant** @ Tongji University — Decoding tourist perception in historic urban quarters.
 
