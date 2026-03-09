@@ -1,11 +1,12 @@
 ### 👋 Hi, I'm Kaizhen Tan (谭楷蓁)
 
-🎓 **M.S. in Artificial Intelligence Systems Management** @ Carnegie Mellon University (2025–2026)  
-🎓 **B.Mgt. in Information Management & Information System** @ Tongji University (2021–2025)
+🎓 **Ph.D. in Public Administration** @ New York University, 2026-2031 (expected)
+🎓 **M.S. in Artificial Intelligence Systems Management** @ Carnegie Mellon University, 2025–2026
+🎓 **B.Mgt. in Information Management & Information System** @ Tongji University, 2021–2025
 
 ---
 
-🌏 **Research Interests:** Urban AI, Social Sensing, Digital Twins, Spatial Intelligence, and Embodied AI for Urban Environments.  
+🌏 **Research Interests:** Urban Science, Human-centered AI, Robot-Friendly City, Social Sensing, Digital Twins, Spatial Intelligence.  
 🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and socially aware.  
 
 ---
@@ -14,7 +15,7 @@
   - **Research Assistant** @ Shanghai Key Laboratory of Urban Design and Urban Science — Embodied intelligence-friendly urban spaces.
   - **Research Assistant** @ Peking University — Urban geometric reconstruction and measurement.
   - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
-  - **Research Officer Intern** @ Tongji University & A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
+  - **Research Officer Intern** @ A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
   - **Research Assistant** @ Tongji University & PolyU, HK — Urban congestion propagation modeling.
   - **Research Assistant** @ Tongji University — Decoding tourist perception in historic urban quarters.
 
