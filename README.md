@@ -2,14 +2,13 @@
 
 <br>
 
-🏛️ **New York University** <code>2026 - 2031</code>
-> 🎓 Ph.D. student in Public Administration
+| School | Credential | Timeline |
+| :--- | :--- | :--- |
+| <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/New_York_University_seal.svg/150px-New_York_University_seal.svg.png" width="40" alt="NYU Logo"> | **New York University**<br>🎓 *Ph.D. student in Public Administration* | `2026 - 2031`<br>(Expected) |
+| <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Carnegie_Mellon_University_seal.svg/150px-Carnegie_Mellon_University_seal.svg.png" width="40" alt="CMU Logo"> | **Carnegie Mellon University**<br>🎓 *M.S. in AI Systems Management* | `2025 - 2026` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tongji_University_logo.svg/150px-Tongji_University_logo.svg.png" width="40" alt="Tongji Logo"> | **Tongji University**<br>🎓 *B.Mgt. in Info Management & System* | `2021 - 2025` |
 
-🤖 **Carnegie Mellon University** <code>2025 - 2026</code>
-> 🎓 M.S. in Artificial Intelligence Systems Management
-
-📊 **Tongji University** <code>2021 - 2025</code>
-> 🎓 B.Mgt. in Information Management & Information System
+<br>
 
 ---
 
