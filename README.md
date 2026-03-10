@@ -1,13 +1,8 @@
 ### 👋 Hi, I'm Kaizhen Tan (谭楷蓁)
 
-- 🎓 **Ph.D. Candidate in Public Administration**
-  📍 *New York University* (Expected 2031)
-  
-- 🎓 **M.S. in Artificial Intelligence Systems Management**
-  📍 *Carnegie Mellon University* (Class of 2026)
-  
-- 🎓 **B.Mgt. in Information Management & Information System**
-  📍 *Tongji University* (Class of 2025)
+> 🎓 **Ph.D. Candidate in Public Administration** > 📍 *New York University (Expected 2031)* > 
+> 🎓 **M.S. in Artificial Intelligence Systems Management** > 📍 *Carnegie Mellon University (2025–2026)* > 
+> 🎓 **B.Mgt. in Information Management & Information System** > 📍 *Tongji University (2021–2025)* ```
   
 ---
 
