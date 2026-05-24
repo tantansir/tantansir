@@ -13,7 +13,7 @@
 
 ---
 
-🌏 **Research Interests:** Urban Science, Human-centered AI, Robot-Friendly City, Social Sensing, Digital Twins, Spatial Intelligence.  
+🌏 **Research Interests:** Urban Science, Human-centered AI, Robotic Urbanization, Social Sensing, Digital Twins, Spatial Intelligence.  
 🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and socially aware.  
 
 ---
