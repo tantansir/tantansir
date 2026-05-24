@@ -3,7 +3,7 @@
 <br>
 
 **New York University** <code>2026 - 2031</code>
-> 🎓 Ph.D. in Public Administration
+> 🎓 Ph.D. in Urban Science
 
 **Carnegie Mellon University** <code>2025 - 2026</code>
 > 🎓 M.S. in Artificial Intelligence
