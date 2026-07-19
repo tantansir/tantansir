@@ -1,4 +1,3 @@
--->
 <div align="center">
   <img width="100%" alt="Kaizhen Tan — Urban Science × Human-centered AI" src="assets/header.svg" />
 </div>
