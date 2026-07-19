@@ -25,19 +25,15 @@
 
 <div align="center">
 
-**New York University** <code>2026 - 2031</code>
-> 🎓 Ph.D. in Urban Science
-
-**Carnegie Mellon University** <code>2025 - 2026</code>
-> 🎓 M.S. in Artificial Intelligence
-
-**Tongji University** <code>2021 - 2025</code>
-> 🎓 B.Mgt. in Information Systems
+|  | Degree | Institution | Years |
+|:-:|:--|:--|:--|
+| 🗽 | **Ph.D.** in Urban Science | New York University | 2026 – 2031 |
+| 🤖 | **M.S.** in Artificial Intelligence | Carnegie Mellon University | 2025 – 2026 |
+| 🏛️ | **B.Mgt.** in Information Systems | Tongji University | 2021 – 2025 |
 
 </div>
 
 ## 🗺️ Research
-
 
 <p align="center">
   <img alt="Urban Science" src="https://img.shields.io/badge/Urban%20Science-0F2027?style=for-the-badge">
