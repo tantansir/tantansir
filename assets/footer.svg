@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 120" width="1200" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="decorative footer">
+  <defs>
+    <linearGradient id="skyf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2C5364"/>
+      <stop offset="0.5" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#0F2027"/>
+    </linearGradient>
+    <filter id="glowf" x="-160%" y="-160%" width="420%" height="420%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#skyf)"/>
+  <path d="M0 58 C 300 46 800 72 1200 54" fill="none" stroke="#4E86A6" stroke-opacity="0.08" stroke-width="1.5"/>
+
+  <g fill="#0A171D" fill-opacity="0.9">
+    <rect x="40" y="96" width="54" height="24"/>
+    <rect x="104" y="88" width="40" height="32"/>
+    <rect x="152" y="100" width="60" height="20"/>
+    <rect x="220" y="92" width="48" height="28"/>
+    <rect x="276" y="86" width="72" height="34"/>
+    <rect x="356" y="98" width="44" height="22"/>
+    <rect x="408" y="90" width="64" height="30"/>
+    <rect x="482" y="84" width="50" height="36"/>
+    <rect x="540" y="96" width="70" height="24"/>
+    <rect x="618" y="100" width="46" height="20"/>
+    <rect x="672" y="88" width="66" height="32"/>
+    <rect x="746" y="94" width="52" height="26"/>
+    <rect x="806" y="92" width="74" height="28"/>
+    <rect x="888" y="86" width="48" height="34"/>
+    <rect x="944" y="98" width="64" height="22"/>
+    <rect x="1016" y="90" width="50" height="30"/>
+    <rect x="1074" y="96" width="68" height="24"/>
+    <rect x="1150" y="100" width="40" height="20"/>
+  </g>
+
+  <g fill="#6F9BB0" fill-opacity="0.30">
+    <rect x="56" y="106" width="4" height="5"/><rect x="120" y="102" width="4" height="5"/>
+    <rect x="238" y="106" width="4" height="5"/><rect x="300" y="100" width="4" height="5"/>
+    <rect x="424" y="104" width="4" height="5"/><rect x="500" y="98" width="4" height="5"/>
+    <rect x="690" y="102" width="4" height="5"/><rect x="824" y="106" width="4" height="5"/>
+    <rect x="904" y="100" width="4" height="5"/><rect x="1034" y="104" width="4" height="5"/>
+    <rect x="1092" y="108" width="4" height="5"/>
+  </g>
+
+  <!-- amber signature dot -->
+  <circle cx="570" cy="106" r="11" fill="#F59E0B" filter="url(#glowf)">
+    <animate attributeName="fill-opacity" values="0.16;0.40;0.16" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="567" y="103" width="5" height="6" rx="1" fill="#F6B23C"/>
+</svg>
