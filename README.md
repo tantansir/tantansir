@@ -33,34 +33,21 @@
 
 </div>
 
-## 🗺️ Research
-
-<p align="center">
-  <img alt="Urban Science" src="https://img.shields.io/badge/Urban%20Science-0F2027?style=for-the-badge">
-  <img alt="Digital Twins" src="https://img.shields.io/badge/Digital%20Twins-1B3A4A?style=for-the-badge">
-  <img alt="Social Sensing" src="https://img.shields.io/badge/Social%20Sensing-27506C?style=for-the-badge">
-  <img alt="Robotic Urbanization" src="https://img.shields.io/badge/Robotic%20Urbanization-33678D?style=for-the-badge">
-  <img alt="Spatial Intelligence" src="https://img.shields.io/badge/Spatial%20Intelligence-3F7FAE?style=for-the-badge">
-  <img alt="Human-centered AI" src="https://img.shields.io/badge/Human--centered%20AI-B45309?style=for-the-badge">
-</p>
-
-```mermaid
-mindmap
-  root((Urban Intelligence))
-    Perceive the city
-      Social Sensing
-      Street-level Vision
-    Model the city
-      Digital Twins
-      Spatio-temporal Learning
-    Embody the city
-      Robotic Urbanization
-      Spatial Intelligence
-    Center the human
-      Human-centered AI
-      Socially Aware Systems
-```
+## 💼 Experience
 
 <div align="center">
-  <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0F2027,50:203A43,100:2C5364&section=footer" />
+
+| Role | Where | Focus |
+|:--|:--|:--|
+| Research Assistant | Shanghai Key Laboratory of Urban Design and Urban Science | Embodied-intelligence-friendly urban spaces |
+| Research Assistant | Peking University | Urban geometric reconstruction and measurement |
+| AI Product Manager | Shanghai AI Lab | AI solutions bridging technical feasibility and real-world needs |
+| Research Officer | A*STAR, Singapore | Spatio-temporal data mining for air traffic prediction |
+| Research Assistant | Tongji University × PolyU, Hong Kong | Urban congestion propagation modeling |
+| Research Assistant | Tongji University | Decoding tourist perception in historic urban quarters |
+
+</div>
+
+<div align="center">
+  <img width="100%" alt="" src="assets/footer.svg" />
 </div>
