@@ -21,33 +21,30 @@
 
 <br>
 
-## 🎓 Education
 
-<div align="center">
+**New York University** <code>2026 - 2031</code>
+> 🎓 Ph.D. in Urban Science
 
-|  | Degree | Institution | Years |
-|:-:|:--|:--|:--|
-| 🗽 | **Ph.D.** in Urban Science | New York University | 2026 – 2031 |
-| 🤖 | **M.S.** in Artificial Intelligence | Carnegie Mellon University | 2025 – 2026 |
-| 🏛️ | **B.Mgt.** in Information Systems | Tongji University | 2021 – 2025 |
+**Carnegie Mellon University** <code>2025 - 2026</code>
+> 🎓 M.S. in Artificial Intelligence
 
-</div>
+**Tongji University** <code>2021 - 2025</code>
+> 🎓 B.Mgt. in Information Systems
 
-## 💼 Experience
 
-<div align="center">
+---
 
-| Role | Where | Focus |
-|:--|:--|:--|
-| Research Assistant | Shanghai Key Laboratory of Urban Design and Urban Science | Embodied-intelligence-friendly urban spaces |
-| Research Assistant | Peking University | Urban geometric reconstruction and measurement |
-| AI Product Manager | Shanghai AI Lab | AI solutions bridging technical feasibility and real-world needs |
-| Research Officer | A*STAR, Singapore | Spatio-temporal data mining for air traffic prediction |
-| Research Assistant | Tongji University × PolyU, Hong Kong | Urban congestion propagation modeling |
-| Research Assistant | Tongji University | Decoding tourist perception in historic urban quarters |
+🌏 **Research Interests:** Urban Science, Human-centered AI, Robotic Urbanization, Social Sensing, Digital Twins, Spatial Intelligence.  
+🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and socially aware.  
 
-</div>
+---
 
-<div align="center">
-  <img width="100%" alt="" src="assets/footer.svg" />
-</div>
+💼 **Recent Roles:**
+  - **Research Assistant** @ Shanghai Key Laboratory of Urban Design and Urban Science — Embodied intelligence-friendly urban spaces.
+  - **Research Assistant** @ Peking University — Urban geometric reconstruction and measurement.
+  - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
+  - **Research Officer Intern** @ A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
+  - **Research Assistant** @ Tongji University & PolyU, HK — Urban congestion propagation modeling.
+  - **Research Assistant** @ Tongji University — Decoding tourist perception in historic urban quarters.
+
+---
