@@ -15,10 +15,6 @@
   <img alt="visitors" src="https://komarev.com/ghpvc/?username=tantansir&label=visitors&color=2c5364&style=flat-square">
 </p>
 
-<div align="center">
-  <samp>“What is the city but the people?” · William Shakespeare, <i>Coriolanus</i></samp>
-</div>
-
 <br>
 
 
