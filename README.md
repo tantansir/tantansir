@@ -30,7 +30,7 @@
 
 ---
 
-🌏 **Research Interests:** Urban Science, Embodied AI, Robotic Urbanization, Multimodal Urban Sensing, and Digital Twins.
+🌏 **Research Interests:** Urban Science, Embodied AI, Robotic Urbanization, Multimodal Urban Sensing, and Digital Twins.  
 🏙 I study embodied intelligence in urban systems, with a focus on human-robot interaction, spatial intelligence, and the urban deployment and governance of robots.
 
 ---
