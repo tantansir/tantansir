@@ -3,7 +3,7 @@
 </div>
 <div align="center">
   <a href="https://tantansir.github.io">
-    <img alt="typing" src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=3E7CA6&center=true&vCenter=true&width=700&lines=Ph.D.+student+in+Urban+Science+%40+New+York+University;Harmonizing+AI+with+urban+ecosystems;Shanghai+%E2%86%92+Singapore+%E2%86%92+Pittsburgh+%E2%86%92+New+York" />
+    <img alt="typing" src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=3E7CA6&center=true&vCenter=true&width=700&lines=Ph.D.+student+%40+New+York+University;Harmonizing+AI+with+urban+ecosystems" />
   </a>
 </div>
 
