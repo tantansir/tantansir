@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" alt="Kaizhen Tan — Urban Science × Human-centered AI" src="assets/header.svg" />
+  <img width="100%" alt="Kaizhen Tan — Urban Science × Embodied Intelligence" src="assets/header.svg" />
 </div>
 <div align="center">
   <a href="https://tantansir.github.io">
@@ -30,17 +30,7 @@
 
 ---
 
-🌏 **Research Interests:** Urban Science, Human-centered AI, Robotic Urbanization, Social Sensing, Digital Twins, Spatial Intelligence.  
-🏙 I aim to integrate AI with urban dynamics, developing intelligent systems that are both technically powerful and socially aware.  
-
----
-
-💼 **Recent Roles:**
-  - **Research Assistant** @ Shanghai Key Laboratory of Urban Design and Urban Science — Embodied intelligence-friendly urban spaces.
-  - **Research Assistant** @ Peking University — Urban geometric reconstruction and measurement.
-  - **AI Product Manager Intern** @ Shanghai AI Lab — Designed AI solutions bridging technical feasibility with real-world needs.
-  - **Research Officer Intern** @ A*STAR, Singapore — Spatio-temporal data mining for air traffic prediction.
-  - **Research Assistant** @ Tongji University & PolyU, HK — Urban congestion propagation modeling.
-  - **Research Assistant** @ Tongji University — Decoding tourist perception in historic urban quarters.
+🌏 **Research Interests:** Urban Science, Embodied AI, Robotic Urbanization, Multimodal Urban Sensing, and Digital Twins.
+🏙 I study embodied intelligence in urban systems, with a focus on human-robot interaction, spatial intelligence, and the urban deployment and governance of robots.
 
 ---
