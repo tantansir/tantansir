@@ -5,7 +5,7 @@ import math
 import random
 from collections import defaultdict
 
-from common import P, font_face, n, n1, rect_d, text_width
+from common import P, font_face, n, n1, rect_d
 
 W, H = 1200, 460
 BASE = 372  # skyline meets the water
@@ -17,7 +17,6 @@ ROBOT_X = 330
 TITLE = "Kaizhen Tan"
 SUB = "URBAN SCIENCE × EMBODIED INTELLIGENCE"
 HUD = "31.23°N 121.47°E · 40.71°N 74.01°W"
-SEAL = "万家灯火"  # 万家灯火, laid out in seal order: right column first
 
 TITLE_X, TITLE_Y, TITLE_SIZE = 66, 158, 108
 SUB_Y, SUB_SIZE, SUB_TRACK = 202, 16.5, 3.4
@@ -103,7 +102,6 @@ def defs():
 <radialGradient id="cyanhalo"><stop offset="0" stop-color="{P['cyan']}" stop-opacity="0.9"/><stop offset="1" stop-color="{P['cyan']}" stop-opacity="0"/></radialGradient>
 <radialGradient id="rosehalo"><stop offset="0" stop-color="{P['rose']}" stop-opacity="0.55"/><stop offset="1" stop-color="{P['rose']}" stop-opacity="0"/></radialGradient>
 <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4"/></filter>
-<filter id="stamp" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="11" result="noise"/><feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -4.2 3.35" result="speckle"/><feComposite in="SourceGraphic" in2="speckle" operator="in"/></filter>
 <clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath>
 <mask id="crescent"><rect x="1040" y="50" width="80" height="80" fill="#fff"/><circle cx="1098" cy="82" r="19" fill="#000"/></mask>'''
 
@@ -602,18 +600,9 @@ def figures_and_attention():
 
 # ---------------------------------------------------------------- type
 def title_block():
-    tw = text_width("InstrumentSerif-Regular.ttf", TITLE, TITLE_SIZE)
     add(f'<text class="name" x="{TITLE_X}" y="{TITLE_Y}">{TITLE}</text>')
     a, b = SUB.split(" × ")
     add(f'<text class="sub" x="{TITLE_X+3}" y="{SUB_Y}">{a} <tspan class="x">×</tspan> {b}</text>')
-    sx, sy, sz = TITLE_X + tw + 26, TITLE_Y - 76, 54
-    t = [(0.735, 0.455), (0.735, 0.87), (0.265, 0.455), (0.265, 0.87)]
-    chars = "".join(f'<text class="seal-t" x="{n(sz*u)}" y="{n(sz*v)}">{ch}</text>' for ch, (u, v) in zip(SEAL, t))
-    add(
-        f'<g class="seal" transform="translate({n(sx)},{n(sy)})" filter="url(#stamp)">'
-        f'<rect width="{sz}" height="{sz}" rx="5" fill="{P["seal"]}"/>'
-        f'<rect x="3.5" y="3.5" width="{sz-7}" height="{sz-7}" rx="2.5" fill="none" stroke="#FBEBDD" stroke-width="1.3"/>{chars}</g>'
-    )
 
 
 def hud():
@@ -637,7 +626,6 @@ def style(fonts):
 .sub{{font-family:'KT Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:{SUB_SIZE}px;font-weight:500;letter-spacing:{SUB_TRACK}px;fill:{P['mute']}}}
 .sub .x{{fill:{P['amber']}}}
 .hud-t{{font-family:'KT Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;font-weight:500;letter-spacing:1.4px;fill:#8FA9D6;fill-opacity:.7}}
-.seal-t{{font-family:'KT Seal','Songti SC','STSong','SimSun','Noto Serif CJK SC',serif;font-weight:900;font-size:21px;fill:#FBEBDD;text-anchor:middle}}
 .w{{animation:lit .6s step-end backwards}}{delays}
 @keyframes lit{{0%{{opacity:.08}}33.3%{{opacity:1}}66.6%{{opacity:.45}}}}
 .tv{{animation:lit .6s step-end backwards,tv 3.2s step-end 6.4s infinite}}
@@ -691,7 +679,6 @@ def build():
         [
             font_face("KT Serif", "InstrumentSerif-Regular.ttf", TITLE),
             font_face("KT Mono", "JetBrainsMono-500.ttf", SUB + HUD, 500),
-            font_face("KT Seal", "NotoSerifSC-900.ttf", SEAL, 900),
         ]
     )
     head = (
