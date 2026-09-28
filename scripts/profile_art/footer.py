@@ -2,7 +2,7 @@
 Static apart from three windows that switch off and on at long, step-timed intervals."""
 import random
 
-from common import P, n, n1, rect_d
+from common import RADIUS, P, n, n1, rect_d
 
 W, H = 1200, 150
 BASE = 112  # skyline meets the water
@@ -157,16 +157,16 @@ def build():
         + lamp(760)
         + figures(470)
     )
-    defs = f'''<linearGradient id="sky" x1="0" y1="0" x2="0" y2="{BASE}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="{P['sky0']}"/><stop offset="0.55" stop-color="{P['sky1']}"/><stop offset="1" stop-color="{P['sky3']}"/></linearGradient>
-<radialGradient id="cityglow" cx="0.5" cy="1" r="0.5"><stop offset="0" stop-color="#FF9E57" stop-opacity="0.22"/><stop offset="1" stop-color="#FF9E57" stop-opacity="0"/></radialGradient>
+    defs = f'''<linearGradient id="sky" x1="0" y1="0" x2="0" y2="{BASE}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#14224E"/><stop offset="0.55" stop-color="#1F2F66"/><stop offset="1" stop-color="#57508E"/></linearGradient>
+<radialGradient id="cityglow" cx="0.5" cy="1" r="0.5"><stop offset="0" stop-color="#FF9E57" stop-opacity="0.28"/><stop offset="1" stop-color="#FF9E57" stop-opacity="0"/></radialGradient>
 <radialGradient id="moonglow"><stop offset="0" stop-color="#FFE7B8" stop-opacity="0.26"/><stop offset="1" stop-color="#FFE7B8" stop-opacity="0"/></radialGradient>
-<linearGradient id="water" x1="0" y1="{BASE}" x2="0" y2="{GROUND}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1834"/><stop offset="1" stop-color="#070A16"/></linearGradient>
-<linearGradient id="deck" x1="0" y1="{GROUND}" x2="0" y2="{H}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0C0F1E"/><stop offset="1" stop-color="#03040A"/></linearGradient>
+<linearGradient id="water" x1="0" y1="{BASE}" x2="0" y2="{GROUND}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3A3A6E"/><stop offset="1" stop-color="#151A38"/></linearGradient>
+<linearGradient id="deck" x1="0" y1="{GROUND}" x2="0" y2="{H}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#232A55"/><stop offset="1" stop-color="#161B3C"/></linearGradient>
 <radialGradient id="halo"><stop offset="0" stop-color="#FFD58A" stop-opacity="0.8"/><stop offset="1" stop-color="#FFB54D" stop-opacity="0"/></radialGradient>
 <radialGradient id="pool"><stop offset="0" stop-color="#FFC26B" stop-opacity="0.25"/><stop offset="1" stop-color="#FFC26B" stop-opacity="0"/></radialGradient>
 <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="0.9"/></filter>
 <mask id="crescent"><rect x="1070" y="28" width="32" height="32" fill="#fff"/><circle cx="1093" cy="39" r="11" fill="#000"/></mask>
-<clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath>'''
+<clipPath id="frame"><rect width="{W}" height="{H}" rx="{RADIUS}"/></clipPath>'''
     style = (
         "<style>"
         ".toggle{animation:off 12.8s step-end infinite}.t1{animation-duration:16s;animation-delay:-4s}.t2{animation-duration:20s;animation-delay:-9.6s}"

@@ -19,15 +19,16 @@ FONT_CACHE = os.path.join(HERE, ".fonts")
 
 # One palette for every asset so the page reads as a single piece.
 P = {
-    "sky0": "#03060E",
-    "sky1": "#0A1230",
-    "sky2": "#1C1B40",
-    "sky3": "#3A2645",
-    "sky4": "#5C3447",
-    "far": "#191D3C",
-    "mid": "#0B1024",
-    "near": "#05070F",
-    "unlit": "#1B2244",
+    # blue hour: cobalt overhead, a peach glow on the horizon, never black
+    "sky0": "#14224E",
+    "sky1": "#22387A",
+    "sky2": "#3E4C92",
+    "sky3": "#9A6C98",
+    "sky4": "#E9A07C",
+    "far": "#3A3D70",
+    "mid": "#171C3D",
+    "near": "#0B0E22",
+    "unlit": "#2B3263",
     "amber": "#FFB54D",
     "warm": "#FFD27A",
     "warmwhite": "#FFE9BD",
@@ -37,9 +38,11 @@ P = {
     "cyan": "#63E6F2",
     "rose": "#FF7EB0",
     "red": "#FF5A48",
-    "ink": "#F6EFE2",
-    "mute": "#9DB0CB",
+    "ink": "#FBF6EC",
+    "mute": "#D5DDF5",
 }
+
+RADIUS = 18
 
 # cache file name -> Google Fonts css2 family spec
 FONT_SOURCES = {

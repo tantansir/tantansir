@@ -5,7 +5,7 @@ import math
 import random
 from collections import defaultdict
 
-from common import P, font_face, n, n1, rect_d
+from common import RADIUS, P, font_face, n, n1, rect_d
 
 W, H = 1200, 460
 BASE = 372  # skyline meets the water
@@ -91,18 +91,18 @@ class Lights:
 def defs():
     return f'''<linearGradient id="sky" x1="0" y1="0" x2="0" y2="{BASE}" gradientUnits="userSpaceOnUse">
 <stop offset="0" stop-color="{P['sky0']}"/><stop offset="0.42" stop-color="{P['sky1']}"/><stop offset="0.74" stop-color="{P['sky2']}"/><stop offset="0.91" stop-color="{P['sky3']}"/><stop offset="1" stop-color="{P['sky4']}"/></linearGradient>
-<radialGradient id="cityglow" cx="0.5" cy="1" r="0.5"><stop offset="0" stop-color="#FF9E57" stop-opacity="0.32"/><stop offset="0.55" stop-color="#E0706A" stop-opacity="0.1"/><stop offset="1" stop-color="#E0706A" stop-opacity="0"/></radialGradient>
+<radialGradient id="cityglow" cx="0.5" cy="1" r="0.5"><stop offset="0" stop-color="#FFB073" stop-opacity="0.4"/><stop offset="0.55" stop-color="#E0706A" stop-opacity="0.1"/><stop offset="1" stop-color="#E0706A" stop-opacity="0"/></radialGradient>
 <radialGradient id="moonglow"><stop offset="0" stop-color="#FFE7B8" stop-opacity="0.3"/><stop offset="1" stop-color="#FFE7B8" stop-opacity="0"/></radialGradient>
-<linearGradient id="haze" x1="0" y1="250" x2="0" y2="{BASE}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="{P['sky3']}" stop-opacity="0"/><stop offset="1" stop-color="#6A3B4C" stop-opacity="0.55"/></linearGradient>
-<linearGradient id="water" x1="0" y1="{BASE}" x2="0" y2="{GROUND}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1834"/><stop offset="0.3" stop-color="#0B0E22"/><stop offset="1" stop-color="#05070F"/></linearGradient>
-<linearGradient id="deck" x1="0" y1="{GROUND}" x2="0" y2="{H}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0C0F1E"/><stop offset="1" stop-color="#03040A"/></linearGradient>
+<linearGradient id="haze" x1="0" y1="250" x2="0" y2="{BASE}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="{P['sky3']}" stop-opacity="0"/><stop offset="1" stop-color="#C98A94" stop-opacity="0.45"/></linearGradient>
+<linearGradient id="water" x1="0" y1="{BASE}" x2="0" y2="{GROUND}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6B5E8E"/><stop offset="0.3" stop-color="#2E3464"/><stop offset="1" stop-color="#161B3A"/></linearGradient>
+<linearGradient id="deck" x1="0" y1="{GROUND}" x2="0" y2="{H}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#232A55"/><stop offset="1" stop-color="#161B3C"/></linearGradient>
 <radialGradient id="pool"><stop offset="0" stop-color="#FFC26B" stop-opacity="0.22"/><stop offset="1" stop-color="#FFC26B" stop-opacity="0"/></radialGradient>
 <radialGradient id="shadow"><stop offset="0" stop-color="#000" stop-opacity="0.6"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
 <radialGradient id="warmhalo"><stop offset="0" stop-color="#FFD58A" stop-opacity="0.85"/><stop offset="0.35" stop-color="#FFB54D" stop-opacity="0.28"/><stop offset="1" stop-color="#FFB54D" stop-opacity="0"/></radialGradient>
 <radialGradient id="cyanhalo"><stop offset="0" stop-color="{P['cyan']}" stop-opacity="0.9"/><stop offset="1" stop-color="{P['cyan']}" stop-opacity="0"/></radialGradient>
 <radialGradient id="rosehalo"><stop offset="0" stop-color="{P['rose']}" stop-opacity="0.55"/><stop offset="1" stop-color="{P['rose']}" stop-opacity="0"/></radialGradient>
 <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4"/></filter>
-<clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath>
+<clipPath id="frame"><rect width="{W}" height="{H}" rx="{RADIUS}"/></clipPath>
 <mask id="crescent"><rect x="1040" y="50" width="80" height="80" fill="#fff"/><circle cx="1098" cy="82" r="19" fill="#000"/></mask>'''
 
 
@@ -115,7 +115,7 @@ def stars():
         if 40 < x < 640 and 60 < y < 225:  # keep the title block clean
             continue
         r = rng.choice([0.55, 0.6, 0.7, 0.8, 0.9, 1.0, 1.15, 1.35])
-        o = max(0.18, min(0.95, (1 - y / 300) * rng.uniform(0.5, 1.1)))
+        o = 0.8 * max(0.18, min(0.95, (1 - y / 300) * rng.uniform(0.5, 1.1)))
         c = rng.choice(["#FFFFFF", "#FFFFFF", "#DCE8FF", "#FFEFD6"])
         dot = f'<circle cx="{n1(x)}" cy="{n1(y)}" r="{n(r)}" fill="{c}" fill-opacity="{n(o)}"/>'
         if rng.random() < 0.3:
@@ -368,7 +368,7 @@ def residential(L, x, w, h, kind, spec, target=False):
     return shapes, balconies
 
 
-BACK = dict(color="#111733", win=(2.4, 3.0), grid=(5.2, 6.6), pad=5, s=0.6, lit=0.5, unlit=0, dim=0.72, near=False)
+BACK = dict(color="#272C5A", win=(2.4, 3.0), grid=(5.2, 6.6), pad=5, s=0.6, lit=0.5, unlit=0, dim=0.72, near=False)
 NEAR = dict(color=P["mid"], win=(4.2, 5.2), grid=(8.4, 10.5), pad=7, s=1.0, lit=0.62, unlit=0.55, dim=1.0, near=True)
 
 
@@ -409,7 +409,7 @@ def near_residential():
         balconies += bal
         x += w + rng.choice([0, 2, 4, 6, 10])
     add(f'<path d="{"".join(shapes)}" fill="{NEAR["color"]}"/>')
-    add(f'<path d="{"".join(balconies)}" fill="#2A3158" fill-opacity="0.8"/>')
+    add(f'<path d="{"".join(balconies)}" fill="#3A4278" fill-opacity="0.8"/>')
     add(L.flush(NEAR["unlit"]))
     return L.reflectable
 
@@ -441,7 +441,7 @@ def water(reflectable):
     for cls, paths in sorted(by_cls.items()):
         g.append((f'<g class="{cls}">' if cls else "<g>") + "".join(paths) + "</g>")
     ripples = [rect_d(rng.uniform(-50, W), rng.uniform(BASE + 4, GROUND - 3), rng.uniform(60, 220), 0.8) for _ in range(16)]
-    g.append(f'<path d="{"".join(ripples)}" fill="#B8C6F0" fill-opacity="0.06"/>')
+    g.append(f'<path d="{"".join(ripples)}" fill="#E6D5F0" fill-opacity="0.07"/>')
     g.append("</g>")
     add("".join(g))
 
@@ -611,7 +611,7 @@ def hud():
         f"M{x},{y+dy*k} L{x},{y} L{x+dx*k},{y} "
         for x, y, dx, dy in ((i, i, 1, 1), (W - i, i, -1, 1), (i, H - i, 1, -1), (W - i, H - i, -1, -1))
     )
-    add(f'<path d="{corners}" stroke="#8FA9D6" stroke-opacity="0.45" stroke-width="1.4" fill="none"/>')
+    add(f'<path d="{corners}" stroke="#D5DDF5" stroke-opacity="0.5" stroke-width="1.4" fill="none"/>')
     add(f'<text class="hud-t" x="{W-40}" y="44" text-anchor="end">{HUD}</text>')
 
 
@@ -625,7 +625,7 @@ def style(fonts):
 .name{{font-family:'KT Serif','Iowan Old Style','Palatino Linotype',Georgia,serif;font-size:{TITLE_SIZE}px;fill:{P['ink']};letter-spacing:.5px}}
 .sub{{font-family:'KT Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:{SUB_SIZE}px;font-weight:500;letter-spacing:{SUB_TRACK}px;fill:{P['mute']}}}
 .sub .x{{fill:{P['amber']}}}
-.hud-t{{font-family:'KT Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;font-weight:500;letter-spacing:1.4px;fill:#8FA9D6;fill-opacity:.7}}
+.hud-t{{font-family:'KT Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;font-weight:500;letter-spacing:1.4px;fill:#D5DDF5;fill-opacity:.75}}
 .w{{animation:lit .6s step-end backwards}}{delays}
 @keyframes lit{{0%{{opacity:.08}}33.3%{{opacity:1}}66.6%{{opacity:.45}}}}
 .tv{{animation:lit .6s step-end backwards,tv 3.2s step-end 6.4s infinite}}
