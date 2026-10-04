@@ -43,7 +43,6 @@ def section_open(h, title, desc, fonts, extra_css=""):
         f'<title id="t">{title}</title><desc id="d">{desc}</desc>'
         f"<style>{fonts}{theme_css()}"
         f".eyebrow{{font-family:{MONO};font-weight:500;font-size:15px;letter-spacing:3px}}"
-        f".aside{{font-family:{MONO};font-weight:500;font-size:13px;letter-spacing:2px}}"
         f"{extra_css}</style>"
         "<defs>"
         f'<radialGradient id="warm" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="{P["amber"]}" stop-opacity="0.35"/><stop offset="1" stop-color="{P["amber"]}" stop-opacity="0"/></radialGradient>'
@@ -51,12 +50,11 @@ def section_open(h, title, desc, fonts, extra_css=""):
     )
 
 
-def eyebrow(label, aside=None):
-    s = '<path class="s-am" d="M48 45h26" stroke-width="4" stroke-linecap="round"/>'
-    s += f'<text class="eyebrow f-amt" x="88" y="50.5">{label}</text>'
-    if aside:
-        s += f'<text class="aside f-dim" x="{W-48}" y="50.5" text-anchor="end">{aside}</text>'
-    return s
+def eyebrow(label):
+    return (
+        '<path class="s-am" d="M48 45h26" stroke-width="4" stroke-linecap="round"/>'
+        f'<text class="eyebrow f-amt" x="88" y="50.5">{label}</text>'
+    )
 
 
 # ---------------------------------------------------------------- education: a transit line
@@ -112,9 +110,9 @@ ICONS = {"pearl": icon_pearl, "bridge": icon_bridge, "arch": icon_arch}
 
 
 def education():
-    H = 318
-    ly = 160
-    parts = [eyebrow("EDUCATION", "SHANGHAI → PITTSBURGH → NEW YORK")]
+    H = 358
+    ly = 200
+    parts = [eyebrow("EDUCATION")]
     # the travelled line runs between the stations, whose hollow rings show the page through them
     xs = [s["x"] for s in STOPS]
     ring = [14 if s.get("now") else 13 for s in STOPS]
@@ -141,7 +139,7 @@ def education():
         f".degree{{font-family:{SANS};font-weight:400;font-size:21.5px;text-anchor:middle}}"
         f".years{{font-family:{MONO};font-weight:500;font-size:16px;letter-spacing:1.6px;text-anchor:middle}}"
     )
-    text_mono = "EDUCATION SHANGHAI → PITTSBURGH → NEW YORK" + "".join(s["years"] + " · " + s["city"] for s in STOPS)
+    text_mono = "EDUCATION" + "".join(s["years"] + " · " + s["city"] for s in STOPS)
     fonts = (
         font_face("KT Sans", "Inter-600.ttf", "".join(s["school"] for s in STOPS), 600)
         + font_face("KT Sans", "Inter-400.ttf", "".join(s["degree"] for s in STOPS), 400)
@@ -230,20 +228,21 @@ STATEMENT = (
 
 
 def research():
-    H = 392
-    parts = [eyebrow("RESEARCH INTERESTS", "LEGEND")]
+    H = 420
+    dy = 28  # space between the section title and the legend
+    parts = [eyebrow("RESEARCH INTERESTS")]
     step = (W - 96) / len(INTERESTS)
     for i, (a, b, icon) in enumerate(INTERESTS):
         cx = 48 + step * (i + 0.5)
-        parts.append(f'<circle class="well well-e" cx="{n(cx)}" cy="116" r="50" stroke-width="1.5"/>')
-        parts.append(f'<g transform="translate({n(cx)} 116) scale(1.18) translate(-32 -32)">{g_icon(icon())}</g>')
-        parts.append(f'<text class="num f-dim" x="{n(cx)}" y="192">{i+1:02d}</text>')
-        parts.append(f'<text class="label f-ink" x="{n(cx)}" y="222">{a}</text>')
+        parts.append(f'<circle class="well well-e" cx="{n(cx)}" cy="{116 + dy}" r="50" stroke-width="1.5"/>')
+        parts.append(f'<g transform="translate({n(cx)} {116 + dy}) scale(1.18) translate(-32 -32)">{g_icon(icon())}</g>')
+        parts.append(f'<text class="num f-dim" x="{n(cx)}" y="{192 + dy}">{i+1:02d}</text>')
+        parts.append(f'<text class="label f-ink" x="{n(cx)}" y="{222 + dy}">{a}</text>')
         if b:
-            parts.append(f'<text class="label f-ink" x="{n(cx)}" y="250">{b}</text>')
-    parts.append(f'<path class="s-am" d="M{W/2-14} 292h28" stroke-width="3" stroke-linecap="round" stroke-opacity="0.8"/>')
+            parts.append(f'<text class="label f-ink" x="{n(cx)}" y="{250 + dy}">{b}</text>')
+    parts.append(f'<path class="s-am" d="M{W/2-14} {292 + dy}h28" stroke-width="3" stroke-linecap="round" stroke-opacity="0.8"/>')
     for i, line in enumerate(STATEMENT):
-        parts.append(f'<text class="statement f-ink" x="{W/2}" y="{338 + i * 38}">{line}</text>')
+        parts.append(f'<text class="statement f-ink" x="{W/2}" y="{338 + dy + i * 38}">{line}</text>')
     css = (
         f".label{{font-family:{SANS};font-weight:600;font-size:23px;text-anchor:middle}}"
         f".num{{font-family:{MONO};font-weight:500;font-size:13px;letter-spacing:2px;text-anchor:middle}}"
@@ -251,7 +250,7 @@ def research():
     )
     fonts = (
         font_face("KT Sans", "Inter-600.ttf", "".join(f"{a} {b or ''}" for a, b, _ in INTERESTS), 600)
-        + font_face("KT Mono", "JetBrainsMono-500.ttf", "RESEARCH INTERESTS LEGEND 0123456789", 500)
+        + font_face("KT Mono", "JetBrainsMono-500.ttf", "RESEARCH INTERESTS 0123456789", 500)
         + font_face("KT Serif", "InstrumentSerif-Regular.ttf", "".join(STATEMENT))
     )
     desc = "Research interests: " + ", ".join(f"{a} {b}" if b else a for a, b, _ in INTERESTS) + ". " + " ".join(STATEMENT)
